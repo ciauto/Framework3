@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [regression test suite]">
+  <test name="functional Booking Air Ticket test scenario(failed)">
+    <classes>
+      <class name="busyqa.testcases.TestCase_BookAirLineTicket">
+        <methods>
+          <include name="init"/>
+          <include name="tearDown"/>
+          <include name="purchaseAirTicket"/>
+        </methods>
+      </class> <!-- busyqa.testcases.TestCase_BookAirLineTicket -->
+    </classes>
+  </test> <!-- functional Booking Air Ticket test scenario(failed) -->
+</suite> <!-- Failed suite [regression test suite] -->

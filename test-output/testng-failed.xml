@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Data Driven testing suite]">
+  <test name="Login Data driven Test(failed)">
+    <classes>
+      <class name="busyqa.testcases.TestCase_DataDriventTesting">
+        <methods>
+          <include name="init"/>
+          <include name="tearDown"/>
+          <include name="Logintest" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- busyqa.testcases.TestCase_DataDriventTesting -->
+    </classes>
+  </test> <!-- Login Data driven Test(failed) -->
+</suite> <!-- Failed suite [Data Driven testing suite] -->

@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="regression test suite">
+	<test name="functional tests scenario">
+		<classes>
+			<class name="busyqa.testcases.TestCase_Login" />
+		</classes>
+	</test>
+</suite>

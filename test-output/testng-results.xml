@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5952" started-at="2020-02-19T19:03:36 EST" finished-at="2020-02-19T19:03:42 EST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5952" started-at="2020-02-19T19:03:36 EST" finished-at="2020-02-19T19:03:42 EST">
+      <class name="busyqa.testcases.TestCase_Login">
+        <test-method status="PASS" signature="init()[pri:0, instance:busyqa.testcases.TestCase_Login@23d2a7e8]" name="init" is-config="true" duration-ms="83700" started-at="2020-02-19T19:02:12 EST" finished-at="2020-02-19T19:03:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="Logintest()[pri:0, instance:busyqa.testcases.TestCase_Login@23d2a7e8]" name="Logintest" duration-ms="5885" started-at="2020-02-19T19:03:36 EST" finished-at="2020-02-19T19:03:41 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logintest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:busyqa.testcases.TestCase_Login@23d2a7e8]" name="tearDown" is-config="true" duration-ms="2047" started-at="2020-02-19T19:03:42 EST" finished-at="2020-02-19T19:03:44 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- busyqa.testcases.TestCase_Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
